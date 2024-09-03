@@ -1,0 +1,30 @@
+Currency Conversion API
+Introdução
+Bem-vindo à documentação da Currency Conversion API. Este projeto é uma WebAPI desenvolvida em .NET que fornece a taxa de conversão do dólar americano (USD) para reais (BRL) utilizando a ExchangeRate-API .
+
+Objetivo
+O objetivo principal desta API é permitir a consulta da taxa de câmbio atual entre USD e BRL, facilitando integrações com outras aplicações que necessitem dessa informação.
+
+Premissas
+A API foi desenvolvida em C# utilizando .NET Core.
+O projeto está publicado em um repositório público no Azure DevOps.
+A API consome os dados do serviço ExchangeRate-API para obter as taxas de câmbio.
+Requisitos Funcionais
+A API deve retornar a taxa de câmbio atual do USD para BRL.
+A API deve ser robusta, lidando com erros na comunicação com o serviço externo de forma apropriada.
+Requisitos Não Funcionais
+A API deve estar documentada com Swagger.
+A documentação do projeto deve ser mantida atualizada nesta Wiki.
+Configuração do Projeto
+Pré-requisitos
+Antes de iniciar, você precisará ter os seguintes itens instalados:
+
+.NET 6.0 SDK ou superior
+Visual Studio 2019/2022 ou Visual Studio Code
+Conta no Azure DevOps para clonar o repositório
+Passos de Configuração
+1. Clonando o Repositório
+Clone o repositório do projeto para sua máquina local:
+
+git clone https://seu-repositorio-no-azure-devops.git
+cd CurrencyConversionAPI
